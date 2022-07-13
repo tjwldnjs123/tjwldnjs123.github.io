@@ -48,7 +48,7 @@ console.log(result);
 // 0010
 ```  
 
-#### 이이디 표시때  
+#### 이이디 표시할때  
 ```javascript 
 const id = '아이디입니다'
 const temp = id.slice(0, 3); 
