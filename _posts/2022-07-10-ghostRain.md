@@ -28,7 +28,7 @@ startBtn.addEventListener("click", () => {
       console.log(time);
     } else if (time < 0) {
       document.getElementById("timer").innerText = "GAME OVER";
-      clearInterval(interval);  // createGhost 
+      clearInterval(interval);  // createGhost 종료
     }
   }, 1000); 
 });
