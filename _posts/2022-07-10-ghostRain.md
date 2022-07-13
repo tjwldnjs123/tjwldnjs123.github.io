@@ -32,5 +32,19 @@ startBtn.addEventListener("click", () => {
     }
   }, 1000); 
 });
+``` 
+
+- padStart() 
+
+ES8(ES2017)에 새롭게 추가된 기능이다. pad는 좌우에 특정 문자열을 채우는 기능이다.  
+```javascript 
+const number = 10;
+const size = 4;
+const result = String(number).padStrt(size, 0); // size길이인 4만큼 
+
+console.log(result);
+// 0010
 ```
+
+
 
