@@ -21,14 +21,14 @@ startBtn.addEventListener("click", () => {
     if (time >= 0) {   //  time이 0초 이상일때 실행되는 함수
       const timer = document.getElementById("timer");
       const minutes = Math.floor(time / 60);       // time을 60으로 나누면 분이 나온다 딱 안떨어질수도 있으니 Math.floor()사용!
-      const seconds = String(time % 60).padStart(2, "0");  
+      const seconds = String(time % 60).padStart(2, "0");  // 예를들어 6초면 00:06 으로 padStart사용(아래 부연설명)
 
       timer.innerText = minutes + ":" + seconds;
       time -= 1;
       console.log(time);
     } else if (time < 0) {
       document.getElementById("timer").innerText = "GAME OVER";
-      clearInterval(interval);
+      clearInterval(interval);  // createGhost 
     }
   }, 1000); 
 });
