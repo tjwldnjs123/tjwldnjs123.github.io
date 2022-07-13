@@ -38,7 +38,7 @@ startBtn.addEventListener("click", () => {
 
 ES8(ES2017)에 새롭게 추가된 기능이다. pad는 좌우에 특정 <u>문자열</u>을 채우는 기능이다.  
 위에 코드는 time이 숫자이기때문에 먼저 string(문자열)로 바꿔준 후 padStart()사용함.  
-## 아래 예제 코드
+#### 아래 예제 코드
 ```javascript 
 const number = 10;
 const size = 4;
@@ -48,7 +48,7 @@ console.log(result);
 // 0010
 ```  
 
-## 이이디 표시때  
+#### 이이디 표시때  
 ```javascript 
 const id = '아이디입니다'
 const temp = id.slice(0, 3); 
